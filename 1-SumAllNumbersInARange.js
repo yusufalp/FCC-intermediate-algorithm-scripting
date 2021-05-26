@@ -26,7 +26,7 @@ function sumAll(arr) {
 
 /** 
  * Mathematical Solution Using 
- * Carl Friedrich Gauss Formual: sum = n * ((first + last)/2)
+ * Carl Friedrich Gauss Formula: sum = n * ((first + last)/2)
 */
 // function sumAll(arr) {
 //   let countNums = Math.abs(arr[0]-arr[1])+1;
