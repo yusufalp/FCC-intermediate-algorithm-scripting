@@ -28,16 +28,24 @@ function sumAll(arr) {
  * Mathematical Solution Using 
  * Carl Friedrich Gauss Formula: sum = n * ((first + last)/2)
 */
+
 // function sumAll(arr) {
 //   let countNums = Math.abs(arr[0]-arr[1])+1;
-
 //   let result = countNums * ((arr[0] + arr[1]) / 2);
-
-//   console.log(result);
+//   return result;
 // }
 
-sumAll([1, 4]) //should return a number.
-sumAll([1, 4]) //should return 10.
-sumAll([4, 1]) //should return 10.
-sumAll([5, 10]) //should return 45.
-sumAll([10, 5]) //should return 45.
+sumAll([1, 4]);
+// should return a number.
+
+sumAll([1, 4]);
+// should return 10.
+
+sumAll([4, 1]);
+// should return 10.
+
+sumAll([5, 10]);
+// should return 45.
+
+sumAll([10, 5]);
+// should return 45.
