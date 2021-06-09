@@ -10,17 +10,17 @@ function spinalCase(str) {
     .toLowerCase();
 }
 
-spinalCase("This Is Spinal Tap")
+spinalCase("This Is Spinal Tap");
 // should return the string this-is-spinal-tap.
 
-spinalCase("thisIsSpinalTap")
+spinalCase("thisIsSpinalTap");
 // should return the string this-is-spinal-tap.
 
-spinalCase("The_Andy_Griffith_Show")
+spinalCase("The_Andy_Griffith_Show");
 // should return the string the-andy-griffith-show.
 
-spinalCase("Teletubbies say Eh-oh")
+spinalCase("Teletubbies say Eh-oh");
 // should return the string teletubbies-say-eh-oh.
 
-spinalCase("AllThe-small Things")
+spinalCase("AllThe-small Things");
 // should return the string all-the-small-things.
